@@ -20,8 +20,8 @@ public class Banco {
         return contas;
     }
 
-    public void setContas(Conta contas) {
-        this.contas.add(contas);
+    public void setContas(Conta conta) {
+        this.contas.add(conta);
     }
 
     public void listarClientes() {
